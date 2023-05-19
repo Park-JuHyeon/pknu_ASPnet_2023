@@ -25,3 +25,8 @@ Bootstrap 앨범사이트 클로닝
 
 <img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/Album_Example.gif?raw=true"
  width="700">
+ 
+Pinterest 클로닝
+
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/Pinterest.gif?raw=true"
+ width="700">
