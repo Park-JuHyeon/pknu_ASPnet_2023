@@ -30,3 +30,54 @@ Pinterest 클로닝
 
 <img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/Pinterest.gif?raw=true"
  width="700">
+
+## 4일차
+- ASP.NET MVC
+   - ASP.NET 기본
+   - ASP.NET 프로젝트 
+   
+ASP.NET Core MVC 게시판
+
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/aspnet03.png?raw=true" width="700">
+
+## 5일차
+- ASP.NET MVC   
+   - 게시판 페이징까지
+   
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/aspnet04.gif?raw=true" width="700">
+
+## 6일차
+- ASP.NET MVC   
+   - 게시판 정리
+   - 계정관리(회원가입, 로그인)
+   
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/aspnet05.gif?raw=true" width="700">
+
+## 7일차
+- ASP.NET Core MVC
+   - 게시판 정리
+      - 아이디 삭제
+      - 게시판 번호
+   - 계정 및 권한관리
+      - 사용자별 권한 할당
+      - 관리자, 사용자 분리
+      - 관리자 게시판글 모두 삭제 가능
+      - 프로필 수정
+   
+## 8일차
+- ASP.NET Core MVC
+   - 부트스트랩 테마(SEO Dream)적용
+   
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/images/aspnet06.gif?raw=true" width="700">
+
+## 9일차
+- ASP.NET Core MVC
+   - 부트스트랩 테마(SEO Dream)적용
+- ASP.NET RestAPI
+	- RestAPI Server
+	- WPF Client
+	
+- 개인 포트폴리오
+	- 부트스트랩 테마 재적용
+
+
