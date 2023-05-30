@@ -85,7 +85,7 @@ ASP.NET Core MVC 게시판
 	
 [ASP.net Web 완료]
 	
-<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/images/aspnetfin.gif?raw=true" width="700">
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/aspnetfin.gif?raw=true" width="700">
 
 ## 10일차
 - ASP.NET RestAPI
