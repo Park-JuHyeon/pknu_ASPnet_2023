@@ -92,6 +92,12 @@ ASP.NET Core MVC 게시판
 	- OpenAPI같은 서비스를 운영
 	- RestAPI Server
 	- WPF Client
+	
+## 11일차
+- ASP.NET RestAPI
+	- RestAPI Server 체크
+	- FrontEnd Server 작업
+	
 - 개인 포트폴리오
 	- 부트스트랩 테마 재적용
 
