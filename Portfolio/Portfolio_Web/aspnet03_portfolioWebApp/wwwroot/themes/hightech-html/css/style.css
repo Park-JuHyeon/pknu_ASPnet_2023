@@ -301,7 +301,7 @@ header
      background: rgba(39, 43, 44, 0.87);
      height: 106px;
      padding: 37px 30px;
-     position: absolute;
+     /*position: absolute;*/
      z-index: 999;
      box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
 }
