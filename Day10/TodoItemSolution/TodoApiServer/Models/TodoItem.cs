@@ -11,9 +11,11 @@ namespace TodoApiServer.Models
         [Column(TypeName ="Varchar(100)")]
         public string? Title { get; set; }
 
-        public DateTime TodoDate { get; set; }
+        // DateTime을 string으로 변환
+        public string TodoDate { get; set; }
 
-        public bool? IsComplete { get; set; }
+        // boolin을 int로 변환
+        public int IsComplete { get; set; }
 
     }
 }
