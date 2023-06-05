@@ -1,5 +1,7 @@
 ﻿using aspnet02_boardapp.Data;
 using aspnet02_boardapp.Models;
+using aspnet03_portfolioWebApp.Logics;
+using aspnet03_portfolioWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -33,6 +35,14 @@ namespace aspnet02_boardapp.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult MailSend(string name, string phonenumber, string email, string message)
+        {
+            MailSender.SendMail(email, name, phonenumber, message, message);
+
+            return RedirectToAction("Index", "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -298,26 +298,27 @@
             </div>
             <div class="col-lg-5 col-md-4">
                 <div class="chose_box">
-                    <i><img src="~/themes/hightech-html/images/chose1.png" alt="#" /></i>
-                    <h3>Project Done </h3>
-                    <strong>1000+</strong>
-                    <a class="read_more" href="Javascript:void(0)">Read More</a>
+                    <i><img src="~/themes/hightech-html/images/github.png" alt="#" width="70" /></i>
+                    <h3>My Github</h3>
+                    <strong></strong>
+                    <a class="read_more" href="https://github.com/Park-JuHyeon/Park-JuHyeon">Read More</a>
                 </div>
             </div>
             <div class="col-lg-5 col-md-4">
                 <div class="chose_box">
                     <i><img src="~/themes/hightech-html/images/chose1.png" alt="#" /></i>
-                    <h3>Happy Clients </h3>
-                    <strong>900+</strong>
-                    <a class="read_more" href="Javascript:void(0)">Read More</a>
+                    <h3>Can Use Language</h3>
+                    <h3>C, Python, C#,<br/>
+                        C++, WPF, etc..</h3>
+                    @*<a class="read_more" href="Javascript:void(0)">Read More</a>*@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4">
                 <div class="chose_box">
                     <i><img src="~/themes/hightech-html/images/chose1.png" alt="#" /></i>
-                    <h3>Awards</h3>
-                    <strong>100+</strong>
-                    <a class="read_more" href="Javascript:void(0)">Read More</a>
+                    <h3>Projects</h3>
+                    <h3>Mini Projects</h3>
+                    <a class="read_more" href="https://github.com/Park-JuHyeon/MiniProjects">Read More</a>
                 </div>
             </div>
         </div>
@@ -333,27 +334,27 @@
                 <div class="titlepage text_align_left">
                     <h2>Get In Touch</h2>
                 </div>
-                <form id="request" class="main_form">
+                <form class="main_form" method="post" asp-controller="Home" asp-action="MailSend">
                     <div class="row">
                         <div class="col-md-12">
-                            <input class="contactus" placeholder="Name" type="type" name=" Name">
+                            <input class="contactus" placeholder="Name" type="text" name="Name">
                         </div>
                         <div class="col-md-12">
-                            <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                            <input class="contactus" placeholder="Phone Number" type="text" name="PhoneNumber">
                         </div>
                         <div class="col-md-12">
-                            <input class="contactus" placeholder="Email" type="type" name="Email">
+                            <input class="contactus" placeholder="Email" type="text" name="Email">
                         </div>
                         <div class="col-md-12">
-                            <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                            <textarea class="textarea" placeholder="Message" type="text" name="Message" ></textarea>
                         </div>
                         <div class="col-md-12">
-                            <button class="send_btn">Send Now</button>
-                        </div>
+                            <button class="send_btn" type="submit">Send Now</button>
+                        </div>                        
                     </div>
                 </form>
             </div>
-            <div class="col-md-6">
+            @*<div class="col-md-6">
                 <div class="titlepage text_align_left">
                     <h2>What Says Clients</h2>
                 </div>
@@ -385,7 +386,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
+            </div>*@
         </div>
     </div>
 </div>
