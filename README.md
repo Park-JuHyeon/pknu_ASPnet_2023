@@ -114,6 +114,6 @@ RestAPI사용 WPF App 및 Web화면
 - 개인 포트폴리오
 	- 부트스트랩 테마 재적용
 
-<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/portfoliofin.gif?raw=true" width="700">
+<img src="https://github.com/Park-JuHyeon/pknu_ASPnet_2023/blob/main/image/MyHomepage.gif?raw=true" width="700">
 
 
